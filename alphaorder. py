@@ -1,0 +1,6 @@
+def ao(t):
+    for i in "abcdefghijklmnopqrstuvwxyz":
+        if i in t:
+            print(i)
+t="Python"          
+print(ao(t))
