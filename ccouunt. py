@@ -1,0 +1,8 @@
+sales = ['milk', 'bread', 'milk', 'egg', 'milk', 'bread']
+
+count = {}
+for item in sales:
+    count[item] = count.get(item, 0) + 1
+
+most = max(count, key=count.get)
+print(f"Most sold item: {most} ({count[most]} times)")
