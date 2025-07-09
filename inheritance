@@ -1,0 +1,14 @@
+class Father:
+    def house(self):
+        print("Father's house")
+
+class Mother:
+    def gold(self):
+        print("Mother's gold")
+
+class Child(Father, Mother):
+    pass
+
+c = Child()
+c.house()  # ➜ Father's house
+c.gold()   # ➜ Mother's gold
